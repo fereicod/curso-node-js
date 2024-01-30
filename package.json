@@ -1,0 +1,45 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "curso express de node",
+  "main": "1.os-info.js",
+  "scripts": {
+    "dev": "nodemon examples.js",
+    "dev11": "nodemon 11.http-api.js",
+    "dev12": "nodemon 12.routing.js",
+    "dev13:1": "node --watch 13.express.js",
+    "dev13:2": "node --watch 13.express-custom-middleware.js",
+    "dev13:3": "node --watch 13.express-native-middleware.js",
+    "dev13:4": "node --watch 13.express-api.js",
+    "dev13:5": "node --watch 13.express-api-cors.js",
+    "dev13:6": "node --watch 13.express-api-cors-native.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fereicod/curso-node-js.git"
+  },
+  "keywords": [
+    "node",
+    "curso",
+    "nodejs"
+  ],
+  "author": "Fernando Espino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fereicod/curso-node-js/issues"
+  },
+  "homepage": "https://github.com/fereicod/curso-node-js#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "picocolors": "1.0.0",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
